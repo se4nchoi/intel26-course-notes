@@ -41,3 +41,5 @@ Touching up on the current progress into the introduction of Python programming;
 - a conclusion I arrived after fiddling with regex for the past hour: 
 	= regex is good and all, but too much headache to remember; better use AI, who can perform great with deterministic environments
 	= I only need to invest my cognitive capacity to 'recognize' that a problem is best solved with regex, and give AI the right type of examples needed (good instruction)
+
+- touching up on OOP. with basic class definitions, __init__, methods, then trying to arch into inheritance, but ran out of time.
