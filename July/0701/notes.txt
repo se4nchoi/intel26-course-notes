@@ -1,0 +1,43 @@
+Touching up on the current progress into the introduction of Python programming;
+
+- given a whole stash of textbooks... some outdated (i.e. 2020 python express for poweruser)
+- was quizzing myself on the operator precedence to refresh (using Gemini canvas quiz)
+
+- () -> x.attribute(), functionCall()  -> ** ->  -,+,~ -> * / // % -> + - -> >>, << -> & -> ! -> | (bitwise and, not, or) -> comparison, membership (==, !=, is is not) -> not -> and ->  or -> assignment (= +=)
+
+- emphasis on 'communication' with continuous examples of how in an actual company setting, communication >>>> competence
+	= (as a new entry level recruit) say greetings, read the manual (if it exists, don't just sit there do nothing because no one gave you anything to do),  and ask question (good ones preferable; and you can ask good questions if you read/know a little) 
+	= (maybe a Korean culture thing?)
+
+- there are 4 types of people: 
+	1. the smart and lazy
+	2. the smart and hardworking
+	3. the dumb and lazy
+	4. the dumb and hardworking
+	= the smart and lazy are the ones that will get promoted, because they will find a way to do the work efficiently
+	= company wants smart and lazy ? then.. can I be smart and lazy (evaluation somewhere?)
+	= and company wants to hire someone that can be not distruptive; teamplayer; see where communication fits in?
+	= someone who does not destroy the group
+
+- pro interview tip? always prepare for a "what difficulty you faced, how did you overcome?"
+	= best type of answer will always be a story where the solution helped the team
+	= if you don't have such an experience, make one.
+
+- refreshing on VIM
+	= using vimtutor
+
+- trying to relearn regex ...
+	= doing practice problems on regexone.com as starter and will proceed to regex101.com for more advanced practice
+
+- visualgo.net 
+	= helpful visualization tool site for algorithms and data structures
+
+
+- A random reddit browse while exploring Gemini's "you've hit the nail on the head" quote:
+	setting up environment so that 'garbage work' such as formatting, easy classification, log parsing, boilerplate
+	to be processed by a local LLM; while preserving "premium" or expensive tokens for the cloud
+		=> something worth investigating ?
+
+- a conclusion I arrived after fiddling with regex for the past hour: 
+	= regex is good and all, but too much headache to remember; better use AI, who can perform great with deterministic environments
+	= I only need to invest my cognitive capacity to 'recognize' that a problem is best solved with regex, and give AI the right type of examples needed (good instruction)
