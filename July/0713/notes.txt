@@ -1,0 +1,31 @@
+test day!
+
+for each problem, provide final answer, and AI prompt/answer pairs
+that was used to reach the final answer. Include any side chats 
+that was used to understand any answer that was provided by the AI.
+(test is going to be on the ability to REASON, not producing 
+the right answer; questions will be intentionally hard or out of
+scope of what was taught)
+= testing prompt writing ability to get good quality AI answers
+= testing ability to interpret and explain what was produced by AI
+
+Test Structure:
+3 questions.
+submit as a file [JohnDoe.hwpw] via email.
+
+title: Intel7th NAME
+to: 
+content: your motto (i.e. 잘먹고 잘살자)
+attachment: the file [JohnDoe.hwpw]
+
+
+hwpw file content
+===========
+Question 1
+Prompt 1
+Answer 1
+...
+...
+Prompt n
+Final Answer
+- your thoughts/interpretation on the answer (2+ lines)
