@@ -14,9 +14,6 @@ I use this repository to organize what I learn during class, rewrite key topics 
 * Introductory machine learning
 * Regression and classification
 
-TBA
-* PLC and factory-automation fundamentals
-
 The list will be updated as major parts of the program are completed.
 
 ## Repository Structure
