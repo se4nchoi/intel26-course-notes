@@ -1,6 +1,6 @@
 # PLC Course Notes
 
-PLC training materials from the Intel 2026 course, focused on Mitsubishi MELSEC-Q PLCs using the Q02H CPU.
+PLC training materials from the  Intel-26 K-DT training program, focused on Mitsubishi MELSEC-Q PLCs using the Q02H CPU.
 
 ## Contents
 
