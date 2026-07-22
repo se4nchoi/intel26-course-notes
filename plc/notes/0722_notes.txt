@@ -1,0 +1,38 @@
+07_22 (WED)
+
+An entire morning block used to... read through the trainer manual (me: dead)
+
+- a 전기기사 필기 question overview -- understanding sequence diagrams from PLC ladder logic was 
+surprisingly okay after the first knoweldge gap was overcome
+- some interesting reasons for development of PLC after mass manufacturing (Fordism) was being adopted
+into GM
+- physically laying out relays and wirings that needed changes (as car model was changed at a line, for example)
+quickly became huge bottleneck problems
+- some talks of electricity and voltages (how Korea improved electric efficiency by swapping 110V to 220V)
+ (also learned that step up from 380V 440V is lethal territory which did not turn out as a national movement as for 110 - 220)
+
+but quickly became very boring afterwards (just reading off the manual)
+
+
+====================
+ETHERNET connection config
+====================
+
+ethernet card @ 00A0 address, base (socket) 7
+initial timing : always open (comms allowed while STOP)
+
+IP as per sticker of PLC
+
+allow WRITE during RUN
+
+
+접속대상 (connection)
+USB
+Ethernet
+-> PC : Ethernet Board
+	- set station #
+-> PLC : Ethernet Module
+	- set IP + station #
+
+
+rest of the day was practicing doing PLC programming (solving past exams for national cert)
