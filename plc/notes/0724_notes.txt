@@ -1,0 +1,63 @@
+MORNING
+=====
+
+- a hands-on practical where we wired up a simple, self-hold circuit that can connect to a 3-Phase AC motor
+- with drills, screws, and copper wires, as well as physical modules (EOCR, MCCB, sockets (relays), push button caskets)
+- a wholesome, dusty, hands-dirty experience
+
+================================================================================================
+L1          L2          L3
+       |           |           |
+     ---         ---         ---
+     o o         o o         o o    MCCB
+     ---|---|---|---|---|---|---
+        |           |           |
+        |           |           |
+   +----+-----------|-----------|----------------------------------+ (L1 Power)
+   |    |           |           |                                  |
+   |    |           |           |                               [10]o
+   |    |           |           |                                 x  EOCR (b-contact)
+   |    |           |           |                                [4]o
+   |    |           |           |                                  |
+   |  [1]         [2]         [3]                                  +-------+-------+
+   |  | |         | |         | |                                  |               |
+   |  +---\-------/---+-------/---+                                |            [4]o
+   |      |           |           |                              [ ]o              | MC
+   |    +---------------+         |                              --- PB1           | (Aux NO)
+   |    |     EOCR      |         |                              o o           [10]o
+   |    +---------------+         |                                |               |
+   |      |           |           |                                +-------+-------+
+   |  [7]         [8]         [9]                                  |
+   |  | |         | |         | |                                 o o
+   |  +---\-------/---+-------/---+                               --- PB0 (NC)
+   |      |           |           |                               o o
+   |     --          --          --                                |
+   |    o  o        o  o        o  o  MC Contacts                  |
+   |     --          --          --                                |
+   |      |           |           |                               [6]
+   |  [1]         [2]         [3]                                  |
+   |  | |         | |         | |                                ( EOCR )
+   |  +---\-------/---+-------/---+                                |
+   |      |           |           |                               [12]
+   |  [7]         [8]         [9]                                  |
+   |      |           |           |                                |
+   |     (U)         (V)         (W)                               |
+   |      |           |           |                               [6]
+   |      +-----+     |     +-----+                                |
+   |            |     |     |                                    ( MC )
+   |         +---------------+                                     |
+   |         |    MOTOR      |                                    [12]
+   |         |     (M)       |                                     |
+   |         +---------------+                                     |
+   |                                                               |
+   +---------------------------------------------------------------+ (L3 Return)
+================================================================================================
+
+- reminder to wire up my own breadboard for the STM32 project !
+
+
+---
+
+back in PLC room for afternoon
+- learned about doing that physical wiring for a PLC module 
+(not a PLC bundle like we use in training; but a standalone piece of PLC (like a CPU before being soldered onto a PCB))
